@@ -27,27 +27,18 @@
     --fonte-android: 'Android', cursive;
 
 }
-* {
-    margin: 0px;
-    padding: 0px;
-    
-}
 
 
 body {
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
 }
-header {
-    background-color: var(--cor4);
-}
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
-    
+    background-color: var(--cor4);
 }
 header > p {
-    
     color: white;
 }
 nav {
